@@ -31,6 +31,7 @@ public class Plan {
 			for(String actMethod : actMethods){
 				if(checkLightStatus() == true){
 					startActing("forward");
+					break;
 				}
 				else{
 					startActing(actMethod);
